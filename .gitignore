@@ -1,0 +1,29 @@
+# System files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# IDEs and editors
+.vscode/
+*.sublime*
+
+# Dependencies
+node_modules/
+
+# Logs
+*.log
+
+# Build and cache
+.sass-cache/
+dist/
+*.cache
+*.bak
+*.swp
+*.swo
+*.tmp
+*.temp
+
+# Environment secrets
+.env
