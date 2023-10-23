@@ -14,8 +14,6 @@ async function setIframeSrc() {
   });
   const json = await response.json();
 
-  debugger
-
   document.getElementById("chatbot-iframe").src = "https://webchat.botframework.com/embed/smileMartBot-bot?s=" + json.key;
 }
 
