@@ -1,6 +1,5 @@
 # WIP SmileMart-Store-Landing-Page
 
-Landing Page for a store called Smile Mart
 
 ⚠️ Temporary Repository Notice
 
@@ -9,3 +8,7 @@ If you have any questions or concerns related to this repository, please reach o
 
 ## TODO:
 - Rename the .env-sample to .env and add your own configuration settings
+- Landing Page for a store called Smile Mart 
+- Used Azure Language Service to create a Chatbot
+
+- Smile Mart - AssistantBot is a GitHub repository (https://github.com/gaebar/SmileMart-AssistantBot-AzureSpringApp) set up using Azure Spring. Its primary purpose is to generate token keys.
