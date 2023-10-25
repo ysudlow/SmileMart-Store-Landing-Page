@@ -7,7 +7,7 @@ function customCloseForm() {
 }
 
 async function setIframeSrc() {
-  const response = await fetch('https://asa-yt7xyaocl7xlo-demo.azuremicroservices.io/get-chatbot-token',{
+  const response = await fetch('https://demo.redwater-75eedb1d.eastus.azurecontainerapps.io/get-chatbot-token',{
     headers: {
       'Content-Type': 'application/json',
     },
