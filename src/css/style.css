@@ -88,6 +88,28 @@ nav li a {
     left: 10px;
     bottom: 15px;
 }
+/* Ensure the team-info section stands out */
+#team-info {
+  background-color: #f8f9fa; /* light gray background */
+  padding: 60px 0; /* top and bottom padding */
+  text-align: center; /* center text */
+}
+
+/* Style for the team member's name and bio */
+.team-member h3,
+.team-member p {
+  margin-bottom: 0.5rem; /* consistent spacing */
+}
+
+/* Bootstrap already handles the img-fluid class, so we just need to make sure the images are round */
+.team-member img {
+  border-radius: 50%; /* make images round */
+}
+
+/* Custom styles for the LinkedIn button if needed */
+.team-member .btn-primary {
+  /* Add any custom styles for the LinkedIn buttons here */
+}
 
 .site-footer {
     background-color: #4780A8;
