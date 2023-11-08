@@ -65,6 +65,29 @@
                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
                   aria-label="Slide 3"></button>
             </div>
+            <script>
+               document.addEventListener('DOMContentLoaded', (event) => {
+  // Function to show the team info and scroll to it
+  function showTeamInfo() {
+    // Make sure the team-info section is visible
+    const teamInfo = document.getElementById('team-info');
+    if (teamInfo) {
+      teamInfo.style.display = 'block'; // You might change this depending on how you want to show it
+      // Scroll to the team-info section
+      teamInfo.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
+
+  // Add the click event listener to the contact-us link
+  const contactLink = document.querySelector('.contact-us-link');
+  if (contactLink) {
+    contactLink.addEventListener('click', (e) => {
+      e.preventDefault(); // Prevent the default anchor link behavior
+      showTeamInfo();
+    });
+  }
+});
+            </body>
             <section id="team-info" class="team-info">
                 <div class="container">
                    <h2>Meet Our Team</h2>
