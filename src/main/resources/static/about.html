@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About Us</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="images/favicon.ico" rel="icon" type="image/x-icon">
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+        }
+
+        .bg-image {
+            background-image: url('../static/images/background.jpg'); /* Adjust the path as needed */
+            height: 100%; /* Full height */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: -1; /* Place it behind the content */
+        }
+
+        .bg-overlay {
+            background-color: rgba(255, 255, 255, 0.5); /* White color in the background with opacity */
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1; /* Place it behind the content */
+        }
+
+        .content {
+            position: relative; /* Ensure the content is on top */
+        }
+        .linkedin-btn {
+            background-color: #0077b5;
+            color: white;
+            border: none;
+            padding: auto;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: auto;
+            margin: auto;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .linkedin-btn:hover {
+            background-color: #005582;
+        }
+        .linkedin-logo {
+            height: auto; /* Adjust as needed */
+            width: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="bg-image"></div> <!-- Background image -->
+    <div class="content">
+    <div class="bg-overlay"></div> <!-- Overlay -->
+      <!-- Bootstrap Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">WebApp</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="products.html">Our Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cart.html">Cart</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="content">
+        <div class="container mt-5">
+            <h1 class="text-center mb-5">Our Team</h1>
+         
+         <!-- Contributor Sections -->
+         <div class="row text-center g-4 center-last-row">
+            <!-- Example for one contributor -->
+            <div class="col-md-4 mb-4">
+               <img src="images/MV.jpg" alt="Headshot of Melissa Vargas" class="img-fluid rounded-circle mb-3" style="width: 150px; height: 175px;">
+               <h3>Melissa Vargas</h3>
+               <button onclick="window.open('https://www.linkedin.com/in/melissa-vargas-57a96828a/', '_blank')" class="linkedin-btn"><img src="images/LinkedIn-Logo.png"></button>
+            </div>
+            <!-- Example for one contributor -->
+            <div class="col-md-4 mb-4">
+                <img src="images/MN.jpg" alt="Headshot of Mary Nichols" class="img-fluid rounded-circle mb-3" style="width: 150px; height: 175px;">
+                <h3>Mary Nichols</h3>
+                <button onclick="window.open('http://www.linkedin.com/in/fuseboxradio', '_blank')" class="linkedin-btn"><img src="images/LinkedIn-Logo.png"></button>
+            </div>
+            <!-- Add additional contributors here --><!-- Example for one contributor -->
+            <div class="col-md-4 mb-4">
+                <img src="images/GB.jpg" alt="Headshot of Gaetano Barecca" class="img-fluid rounded-circle mb-3" style="width: 150px; height: 175px;">
+                <h3>Gaetano Barecca</h3>
+                <button onclick="window.open('https://www.linkedin.com/in/gaetanobarreca/', '_blank')" class="linkedin-btn"><img src="images/LinkedIn-Logo.png"></button>
+            </div>
+            <!-- Add additional contributors here --><!-- Example for one contributor -->
+            <div class="col-md-4 mb-4">
+                <img src="images/KD.jpg" alt="Headshot of Kendall Drummond" class="img-fluid rounded-circle mb-3" style="width: 150px; height: 175px;">
+                <h3>Kendall Drummond</h3>
+                <button onclick="window.open('https://www.linkedin.com/in/kendalldrummond/', '_blank')" class="linkedin-btn"><img src="images/LinkedIn-Logo.png"></button>
+            </div>
+            <!-- Add additional contributors here --><!-- Example for one contributor -->
+            <div class="col-md-4 mb-4">
+                <img src="images/KT.jpg" alt="Headshot of Kayla Thorne" class="img-fluid rounded-circle mb-3" style="width: 150px; height: 175px;">
+                <h3>Kayla Thorne</h3>
+                <button onclick="window.open('https://www.linkedin.com/in/kaylthorne/', '_blank')" class="linkedin-btn"><img src="images/LinkedIn-Logo.png"></button>
+        </div>
+            <!-- Add additional contributors here --><!-- Example for one contributor -->
+            <div class="col-md-4 mb-4">
+                <img src="images/YS.jpg" alt="Headshot of Yvonne Sudlow" class="img-fluid rounded-circle mb-3" style="max-width: 150px;height: 175px;">
+                <h3>Yvonne Sudlow</h3>
+                <button onclick="window.open('https://www.linkedin.com/in/yvonne-sudlow/', '_blank')" class="linkedin-btn"><img src="images/LinkedIn-Logo.png"></button>
+        </div>
+                    <!--<img src="images/LinkedIn-Wordmark-White-Logo.wine.png" alt="LinkedIn">
+                </button>-->
+            </div>
+            <!-- Add additional contributors here -->
+         </div>
+      </div>
+
+     <!-- Bootstrap JS Bundle -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+     crossorigin="anonymous"></script>
+ <script src="/js/script.js"></script>
+</body>
+</html>
